@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+form {
+    display: inline block;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 10vh;
+}
+
+form h1 {
+    text-align: center;
+}
+
+form label, button {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.error {
+    color: red;
+    font-size: smaller;
+}
